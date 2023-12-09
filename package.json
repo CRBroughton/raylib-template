@@ -1,0 +1,16 @@
+{
+  "name": "raylib-asteroids",
+  "version": "0.0.1",
+  "description": "Raylib Asteroids",
+  "scripts": {
+    "changeset": "npx changeset",
+    "changeset:status": "npx changeset status --verbose",
+    "changeset:version": "npx changeset version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}

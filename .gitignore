@@ -2,5 +2,9 @@
 *.html
 *.js
 *.wasm
-# 
+# RAYLIB
 raylib
+# DEBUG FILES
+*-debug
+# JS
+node_modules

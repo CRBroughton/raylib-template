@@ -7,7 +7,7 @@ vars:
 tasks:
   linux:
     cmds:
-      - g++ src/*.cpp -o debug/{{.GAME_NAME}}-{{.GAME_VERSION}} -I./src/include -L./src/lib -lraylib -Wno-missing-braces -Wall -std=c++14
+      - g++ src/*.cpp -o debug/{{.GAME_NAME}}-{{.GAME_VERSION}}-debug -I./src/include -L./src/lib -lraylib -Wno-missing-braces -Wall -std=c++14
   web:
     cmds:
       # - cd debug/web && rm -rf *
